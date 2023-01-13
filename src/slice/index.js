@@ -1,2 +1,2 @@
-export * from './counterSlice'
-export * from './pokemonSlice'
+export * from './counter'
+export * from './pokemon'

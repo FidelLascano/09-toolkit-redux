@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {increment, decrement, incrementByAmount} from "./../slice";
+import {increment, decrement, incrementByAmount} from "../../slice/index.js";
 
-const App = () => {
+const Counter = () => {
     const[amount, setAmout] = useState(3);
     const handlerAmountChange = (event)=>{
         const value = event.target.value;
@@ -27,4 +27,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Counter;
